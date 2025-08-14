@@ -121,7 +121,7 @@
     "name": "The Wharf",  
     "position": 
     {
-      "cartographicDegrees": [174.77994652968528, -41.28487710448407, 18]
+      "cartographicDegrees": [174.7799042143298, -41.28490876370122, 18]
     },  
     "description": "The Wharf. Approximately 415m", 
        
@@ -205,7 +205,7 @@
     "name": "Oriental Parade",  
     "position": 
     {
-      "cartographicDegrees": [174.79678995180828, -41.2904630893905, 18]
+      "cartographicDegrees": [174.7965253693106, -41.29051807076244, 18]
     },  
     "description": "Oriental Parade. Approximately 1.95km", 
        
@@ -345,7 +345,7 @@
     "name": "The Terrace",  
     "position": 
     {
-      "cartographicDegrees": [174.7746801580521, -41.282952467951375, 18]
+      "cartographicDegrees": [174.77475592580487, -41.2825572355709, 35]
     },  
     "description": "The Terrace. Approximately 50m", 
        
@@ -373,7 +373,7 @@
     "name": "The Terrace",  
     "position": 
     {
-      "cartographicDegrees": [174.7744413090746, -41.28356536156083, 18]
+      "cartographicDegrees": [174.7744413090746, -41.28356536156083, 45]
     },  
     "description": "The Terrace. Approximately 30m", 
        
@@ -401,7 +401,7 @@
     "name": "The Terrace",  
     "position": 
     {
-      "cartographicDegrees": [174.7743270137501, -41.283836450440816, 18]
+      "cartographicDegrees": [174.77436705176638, -41.28391484741932, 45]
     },  
     "description": "The Terrace. Approximately 55m", 
        
