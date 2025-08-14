@@ -6,12 +6,12 @@
   },  
   {    
     "id": "Location_01",    
-    "name": "Cnr Lambton Quay & Willis St.",  
+    "name": "Cnr Lambton Quay & Brandon St.",  
     "position": 
     {
-      "cartographicDegrees": [174.77600004872073, -41.28594332892257, 18]
+      "cartographicDegrees": [174.77572216541995, -41.28309318938569, 18]      
     },  
-    "description": "Cnr Lambton Quay & Willis St. Approximately 260m ", 
+    "description": "Cnr Lambton Quay & Brandon St. Approximately 64m ", 
        
     "ellipsoid": 
     {
@@ -34,12 +34,12 @@
   },
   {    
     "id": "Location_02",    
-    "name": "Lambton Quay 01",  
+    "name": "Midland Park",  
     "position": 
     {
-      "cartographicDegrees": [174.7755212342405, -41.284943642924574, 18]
+      "cartographicDegrees": [174.77641107098935, -41.282161277337764, 18]
     },  
-    "description": "Lambton Quay. Approximately 170m", 
+    "description": "Midland Park. Approximately 175m", 
        
     "ellipsoid": 
     {
@@ -62,12 +62,12 @@
   },
   {    
     "id": "Location_03",    
-    "name": "Lambton Quay 02",  
+    "name": "Cnr Lambton Quay & Waring Taylor St",  
     "position": 
     {
-      "cartographicDegrees": [174.7754248470476, -41.28429086115362, 18]  
+      "cartographicDegrees": [174.77624072922228, -41.28186247869779, 18]  
     },  
-    "description": "Lambton Quay. Approximately 75m", 
+    "description": "Cnr Lambton Quay & Waring Taylor St. Approximately 202m", 
        
     "ellipsoid": 
     {
@@ -90,12 +90,12 @@
   },
   {    
     "id": "Location_04",    
-    "name": "Lambton Quay",  
+    "name": "Cnr Panama St & Customhouse Quay",  
     "position": 
     {
-      "cartographicDegrees": [174.7756718132298, -41.283010259762825, 18] 
+      "cartographicDegrees": [174.77736664933227, -41.28433388455575, 18] 
     },  
-    "description": "Lambton Quay. Approximately 75m", 
+    "description": "Cnr Panama St & Customhouse Quay. Approximately 195m", 
        
     "ellipsoid": 
     {
@@ -118,12 +118,12 @@
   },
   {    
     "id": "Location_05",    
-    "name": "Lambton Quay",  
+    "name": "The Wharf",  
     "position": 
     {
-      "cartographicDegrees": [174.77617894011817, -41.28192979358933, 18]
+      "cartographicDegrees": [174.77994652968528, -41.28487710448407, 18]
     },  
-    "description": "Cnr Lambton Quay & Waring Taylor. Approximately 195m", 
+    "description": "The Wharf. Approximately 415m", 
        
     "ellipsoid": 
     {
@@ -146,12 +146,12 @@
   },
     {    
     "id": "Location_06",    
-    "name": "Lambton Quay",  
+    "name": "The Wharf",  
     "position": 
     {
-      "cartographicDegrees": [174.77629885064772, -41.2821753785133, 18]
+      "cartographicDegrees": [174.7801007236985, -41.28520695846918, 18]
     },  
-    "description": "Waring Taylor St. Approximately 180m", 
+    "description": "The Wharf. Approximately 442m", 
        
     "ellipsoid": 
     {
@@ -174,12 +174,12 @@
   },
   {    
     "id": "Location_07",    
-    "name": "Panama Street",  
+    "name": "Freyberg Pool & Fitness Centre",  
     "position": 
     {
-      "cartographicDegrees": [174.77665074752255, -41.28415513360711, 18]
+      "cartographicDegrees": [174.78963529055122, -41.28987265353749, 18]
     },  
-    "description": "Panama St. Approximately 120m", 
+    "description": "Freyberg Pool & Fitness Centre. Approximately 1.4km", 
        
     "ellipsoid": 
     {
@@ -202,12 +202,12 @@
   },
   {    
     "id": "Location_08",    
-    "name": "Jervois Street",  
+    "name": "Oriental Parade",  
     "position": 
     {
-      "cartographicDegrees": [174.77776936307896, -41.284533209245005, 18]
+      "cartographicDegrees": [174.79678995180828, -41.2904630893905, 18]
     },  
-    "description": "Jervois St. Approximately 210m", 
+    "description": "Oriental Parade. Approximately 1.95km", 
        
     "ellipsoid": 
     {
@@ -230,12 +230,12 @@
   },
   {    
     "id": "Location_09",    
-    "name": "Helipad",  
+    "name": "Great Harbour Way",  
     "position": 
     {
-      "cartographicDegrees": [174.78026928061732, -41.285428636782115, 18]
+      "cartographicDegrees": [174.8004243431547, -41.28749274011537, 18]
     },  
-    "description": "Helipad. Approximately 450m", 
+    "description": "Great Harbour Way. Approximately 2.1km", 
        
     "ellipsoid": 
     {
@@ -258,12 +258,12 @@
   },
     {    
     "id": "Location_10",    
-    "name": "Shed 1",  
+    "name": "Cnr Lambton Quay & Grey St",  
     "position": 
     {
-      "cartographicDegrees": [174.7800492928047, -41.28477711403377, 18]
+      "cartographicDegrees": [174.7755148213036, -41.28419600525699, 18]
     },  
-    "description": "Wellington Indoor Sports Shed 1. Approximately 425m", 
+    "description": "Cnr Lambton Quay & Grey St. Approximately 70m", 
        
     "ellipsoid": 
     {
@@ -286,12 +286,12 @@
   },
     {    
     "id": "Location_11",    
-    "name": "Freyberg Pool",  
+    "name": "Hallensteins, Lambton Quay",  
     "position": 
     {
-      "cartographicDegrees": [174.7903799816797, -41.290828793885794, 18]
+      "cartographicDegrees": [174.77556821371346, -41.28501334690651, 18]
     },  
-    "description": "Freyberg Pool. Approximately 1.5km", 
+    "description": "Hallensteins, Lambton Quay. Approximately 155m", 
        
     "ellipsoid": 
     {
@@ -314,12 +314,12 @@
   },
       {    
     "id": "Location_12",    
-    "name": "Oriental Bay Beach",  
+    "name": "Lambton Quay",  
     "position": 
     {
-      "cartographicDegrees": [174.7932804378335, -41.29106959850868, 18]
+      "cartographicDegrees": [174.77588351106334, -41.28576528801419, 18]
     },  
-    "description": "Oriental Bay Beach. Approximately 1.8km", 
+    "description": "Lambton Quay. Approximately 250m", 
        
     "ellipsoid": 
     {
@@ -342,12 +342,68 @@
   },
     {    
     "id": "Location_13",    
-    "name": "Great Harbour Way",  
+    "name": "The Terrace",  
     "position": 
     {
-      "cartographicDegrees": [174.8018127442035, -41.28700866664934, 18]
+      "cartographicDegrees": [174.7746801580521, -41.282952467951375, 18]
     },  
-    "description": "Great Harbour Way. Approximately 2.2km", 
+    "description": "The Terrace. Approximately 50m", 
+       
+    "ellipsoid": 
+    {
+      "radii": 
+      {
+        "cartesian": [10.0, 10.0, 10.0]
+      },
+      "fill": true,
+      "material": 
+      {
+        "solidColor": 
+        {
+          "color": 
+          {
+            "rgba": [255, 0, 0, 0]
+          }
+        }
+      }
+    }
+  },
+      {    
+    "id": "Location_14",    
+    "name": "The Terrace",  
+    "position": 
+    {
+      "cartographicDegrees": [174.7744413090746, -41.28356536156083, 18]
+    },  
+    "description": "The Terrace. Approximately 30m", 
+       
+    "ellipsoid": 
+    {
+      "radii": 
+      {
+        "cartesian": [10.0, 10.0, 10.0]
+      },
+      "fill": true,
+      "material": 
+      {
+        "solidColor": 
+        {
+          "color": 
+          {
+            "rgba": [255, 0, 0, 0]
+          }
+        }
+      }
+    }
+  },
+      {    
+    "id": "Location_15",    
+    "name": "The Terrace",  
+    "position": 
+    {
+      "cartographicDegrees": [174.7743270137501, -41.283836450440816, 18]
+    },  
+    "description": "The Terrace. Approximately 55m", 
        
     "ellipsoid": 
     {
