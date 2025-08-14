@@ -6,12 +6,12 @@
   },  
   {    
     "id": "Location_01",    
-    "name": "Cnr Lambton Quay & Brandon St.",  
+    "name": "Cnr Lambton Quay & Johnston St.",  
     "position": 
     {
-      "cartographicDegrees": [174.77572216541995, -41.28309318938569, 18]      
+      "cartographicDegrees": [174.77599428732435, -41.28249025817534, 18]      
     },  
-    "description": "Cnr Lambton Quay & Brandon St. Approximately 64m ", 
+    "description": "Cnr Lambton Quay & Johnston St. Approximately 124m ", 
        
     "ellipsoid": 
     {
