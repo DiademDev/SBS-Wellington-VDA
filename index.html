@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>SBS Geospatial Study</title>
+
+    <script src="https://cesium.com/downloads/cesiumjs/releases/1.105.1/Build/Cesium/Cesium.js"></script>
+    <link href="https://cesium.com/downloads/cesiumjs/releases/1.105.1/Build/Cesium/Widgets/widgets.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+
+</head>
+<body>
+    <header>
+        <h2>Geospatial VDA</h2>
+        <h4>SBS Building, Wellington</h4>
+        <img class="logo" src="img/Diadem_logo.jpg" width="100px" alt="Diadem logo">
+    </header>
+
+    <div id="cesiumContainer" class="fullSize" sandbox="allow-scripts"></div>
+
+    <!-- Navigation bar -->
+    <button id="HomeBut" type="button"><img src="./img/home.png" width="20px" height="20px" alt="home"></button>
+    <button id="LeftBut" type="button">&lt;</button>
+    <button id="RightBut" type="button">&gt;</button>
+    <div id="back-text">BACK</div>
+    <div id="next-text">NEXT</div>
+
+
+    <!-- User interface -->
+    <div id="buildingToggleContainer">
+        <label class="switch">
+            <input type="checkbox" id="buildingOverlay" checked>
+            <span class="slider"></span>
+            <span class="switch-label">HIGHLIGHT BUILDING</span>
+        </label>
+    </div>
+
+    <div id="distanceRingsToggleContainer">
+        <label class="switch">
+            <input type="checkbox" id="distanceRings">
+            <span class="slider"></span>
+            <span class="switch-label">DISTANCE OVERLAYS</span>
+        </label>
+    </div>
+
+    <div id="viewingCorridorsToggleContainer">
+        <label class="switch">
+            <input type="checkbox" id="viewingCorridors">
+            <span class="slider"></span>
+            <span class="switch-label">VIEWING CORRIDORS</span>
+        </label>
+    </div>
+
+    <!-- <div id="customSliderContainer">
+        <div id="sliderLabel">CAMERA ZOOM</div>
+        <div id="sliderTrack">
+             <div id="sliderThumb"></div>
+        </div>
+    </div>
+    -->
+
+    <!-- Custom image/info panel -->
+    <div id="description_box">
+        <div id="description"></div>
+    </div>
+    <div id="customPanel"></div>
+
+    <!-- Compass -->
+    <div id="compass">
+        <img src="img/compass-icon.png" id="compassNeedle" />
+    </div>
+
+    <!-- Scripts -->
+    <script src="main.js"></script>
+    <footer>
+    </footer>
+
+</body>
+</html>

@@ -1,0 +1,373 @@
+[  
+  {    
+    "id": "document",    
+    "name": "SBS Building",    
+    "version": "1.0"  
+  },  
+  {    
+    "id": "Location_01",    
+    "name": "Cnr Lambton Quay & Willis St.",  
+    "position": 
+    {
+      "cartographicDegrees": [174.77600004872073, -41.28594332892257, 18]
+    },  
+    "description": "Cnr Lambton Quay & Willis St. Approximately 260m ", 
+       
+    "ellipsoid": 
+    {
+      "radii": 
+      {
+        "cartesian": [10.0, 10.0, 10.0]
+      },
+      "fill": true,
+      "material": 
+      {
+        "solidColor": 
+        {
+          "color": 
+          {
+            "rgba": [255, 0, 0, 0]
+          }
+        }
+      }
+    }
+  },
+  {    
+    "id": "Location_02",    
+    "name": "Lambton Quay 01",  
+    "position": 
+    {
+      "cartographicDegrees": [174.7755212342405, -41.284943642924574, 18]
+    },  
+    "description": "Lambton Quay. Approximately 170m", 
+       
+    "ellipsoid": 
+    {
+      "radii": 
+      {
+        "cartesian": [10.0, 10.0, 10.0]
+      },
+      "fill": true,
+      "material": 
+      {
+        "solidColor": 
+        {
+          "color": 
+          {
+            "rgba": [255, 0, 0, 0]
+          }
+        }
+      }
+    }
+  },
+  {    
+    "id": "Location_03",    
+    "name": "Lambton Quay 02",  
+    "position": 
+    {
+      "cartographicDegrees": [174.7754248470476, -41.28429086115362, 18]  
+    },  
+    "description": "Lambton Quay. Approximately 75m", 
+       
+    "ellipsoid": 
+    {
+      "radii": 
+      {
+        "cartesian": [10.0, 10.0, 10.0]
+      },
+      "fill": true,
+      "material": 
+      {
+        "solidColor": 
+        {
+          "color": 
+          {
+            "rgba": [255, 0, 0, 0]
+          }
+        }
+      }
+    }
+  },
+  {    
+    "id": "Location_04",    
+    "name": "Lambton Quay",  
+    "position": 
+    {
+      "cartographicDegrees": [174.7756718132298, -41.283010259762825, 18] 
+    },  
+    "description": "Lambton Quay. Approximately 75m", 
+       
+    "ellipsoid": 
+    {
+      "radii": 
+      {
+        "cartesian": [10.0, 10.0, 10.0]
+      },
+      "fill": true,
+      "material": 
+      {
+        "solidColor": 
+        {
+          "color": 
+          {
+            "rgba": [255, 0, 0, 0]
+          }
+        }
+      }
+    }
+  },
+  {    
+    "id": "Location_05",    
+    "name": "Lambton Quay",  
+    "position": 
+    {
+      "cartographicDegrees": [174.77617894011817, -41.28192979358933, 18]
+    },  
+    "description": "Cnr Lambton Quay & Waring Taylor. Approximately 195m", 
+       
+    "ellipsoid": 
+    {
+      "radii": 
+      {
+        "cartesian": [10.0, 10.0, 10.0]
+      },
+      "fill": true,
+      "material": 
+      {
+        "solidColor": 
+        {
+          "color": 
+          {
+            "rgba": [255, 0, 0, 0]
+          }
+        }
+      }
+    }
+  },
+    {    
+    "id": "Location_06",    
+    "name": "Lambton Quay",  
+    "position": 
+    {
+      "cartographicDegrees": [174.77629885064772, -41.2821753785133, 18]
+    },  
+    "description": "Waring Taylor St. Approximately 180m", 
+       
+    "ellipsoid": 
+    {
+      "radii": 
+      {
+        "cartesian": [10.0, 10.0, 10.0]
+      },
+      "fill": true,
+      "material": 
+      {
+        "solidColor": 
+        {
+          "color": 
+          {
+            "rgba": [255, 0, 0, 0]
+          }
+        }
+      }
+    }
+  },
+  {    
+    "id": "Location_07",    
+    "name": "Panama Street",  
+    "position": 
+    {
+      "cartographicDegrees": [174.77665074752255, -41.28415513360711, 18]
+    },  
+    "description": "Panama St. Approximately 120m", 
+       
+    "ellipsoid": 
+    {
+      "radii": 
+      {
+        "cartesian": [10.0, 10.0, 10.0]
+      },
+      "fill": true,
+      "material": 
+      {
+        "solidColor": 
+        {
+          "color": 
+          {
+            "rgba": [255, 0, 0, 0]
+          }
+        }
+      }
+    }
+  },
+  {    
+    "id": "Location_08",    
+    "name": "Jervois Street",  
+    "position": 
+    {
+      "cartographicDegrees": [174.77776936307896, -41.284533209245005, 18]
+    },  
+    "description": "Jervois St. Approximately 210m", 
+       
+    "ellipsoid": 
+    {
+      "radii": 
+      {
+        "cartesian": [10.0, 10.0, 10.0]
+      },
+      "fill": true,
+      "material": 
+      {
+        "solidColor": 
+        {
+          "color": 
+          {
+            "rgba": [255, 0, 0, 0]
+          }
+        }
+      }
+    }
+  },
+  {    
+    "id": "Location_09",    
+    "name": "Helipad",  
+    "position": 
+    {
+      "cartographicDegrees": [174.78026928061732, -41.285428636782115, 18]
+    },  
+    "description": "Helipad. Approximately 450m", 
+       
+    "ellipsoid": 
+    {
+      "radii": 
+      {
+        "cartesian": [10.0, 10.0, 10.0]
+      },
+      "fill": true,
+      "material": 
+      {
+        "solidColor": 
+        {
+          "color": 
+          {
+            "rgba": [255, 0, 0, 0]
+          }
+        }
+      }
+    }
+  },
+    {    
+    "id": "Location_10",    
+    "name": "Shed 1",  
+    "position": 
+    {
+      "cartographicDegrees": [174.7800492928047, -41.28477711403377, 18]
+    },  
+    "description": "Wellington Indoor Sports Shed 1. Approximately 425m", 
+       
+    "ellipsoid": 
+    {
+      "radii": 
+      {
+        "cartesian": [10.0, 10.0, 10.0]
+      },
+      "fill": true,
+      "material": 
+      {
+        "solidColor": 
+        {
+          "color": 
+          {
+            "rgba": [255, 0, 0, 0]
+          }
+        }
+      }
+    }
+  },
+    {    
+    "id": "Location_11",    
+    "name": "Freyberg Pool",  
+    "position": 
+    {
+      "cartographicDegrees": [174.7903799816797, -41.290828793885794, 18]
+    },  
+    "description": "Freyberg Pool. Approximately 1.5km", 
+       
+    "ellipsoid": 
+    {
+      "radii": 
+      {
+        "cartesian": [10.0, 10.0, 10.0]
+      },
+      "fill": true,
+      "material": 
+      {
+        "solidColor": 
+        {
+          "color": 
+          {
+            "rgba": [255, 0, 0, 0]
+          }
+        }
+      }
+    }
+  },
+      {    
+    "id": "Location_12",    
+    "name": "Oriental Bay Beach",  
+    "position": 
+    {
+      "cartographicDegrees": [174.7932804378335, -41.29106959850868, 18]
+    },  
+    "description": "Oriental Bay Beach. Approximately 1.8km", 
+       
+    "ellipsoid": 
+    {
+      "radii": 
+      {
+        "cartesian": [10.0, 10.0, 10.0]
+      },
+      "fill": true,
+      "material": 
+      {
+        "solidColor": 
+        {
+          "color": 
+          {
+            "rgba": [255, 0, 0, 0]
+          }
+        }
+      }
+    }
+  },
+    {    
+    "id": "Location_13",    
+    "name": "Great Harbour Way",  
+    "position": 
+    {
+      "cartographicDegrees": [174.8018127442035, -41.28700866664934, 18]
+    },  
+    "description": "Great Harbour Way. Approximately 2.2km", 
+       
+    "ellipsoid": 
+    {
+      "radii": 
+      {
+        "cartesian": [10.0, 10.0, 10.0]
+      },
+      "fill": true,
+      "material": 
+      {
+        "solidColor": 
+        {
+          "color": 
+          {
+            "rgba": [255, 0, 0, 0]
+          }
+        }
+      }
+    }
+  }
+]
+
+

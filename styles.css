@@ -1,0 +1,314 @@
+body {
+    margin: 0;
+    background-color: black;
+}
+
+/*---------------------------------------------------------- Header section */
+header {
+    color: lightgrey;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 20px;
+    padding-top: 100px;
+}
+
+footer {
+    color: lightgrey;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-right: 20px;
+    text-align: right;
+}
+
+h2 {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    margin: 0;
+    padding-bottom: 0px;
+    color: rgb(92, 91, 91);
+}
+
+h4 {
+    position: absolute;
+    top: 50px;
+    left: 20px;
+    margin: 0;
+    padding-bottom: 0px;
+    padding-top: 5px;
+    color: rgb(147, 147, 147);
+}
+
+.logo {
+    float: right;
+    padding: 10px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+/*---------------------------------------------------------- Navigation bar */
+button {
+    background-color: rgb(76, 76, 76);
+    color: darkgray;
+}
+
+#HomeBut {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    width: 100px;
+    height: 25px;
+    position: absolute;
+    top: 72px;
+    right: 20px;
+    padding: none;
+}
+
+#RightBut {
+  border: none;
+  width: 100px;
+  height: 25px;
+  position: absolute;
+  top: 72px;
+  right: 125px;
+  animation: blink 1s infinite;
+}
+
+@keyframes blink {
+  0%, 49% {
+    box-shadow: 0 0 20px #ffffff;
+  }
+  50%, 100% {
+    box-shadow: none;
+  }
+}
+
+#LeftBut {
+    border: none;
+    width: 100px;
+    height: 25px;
+    position: absolute;
+    top: 72px;
+    right: 230px;
+}
+
+#back-text {
+  position: absolute;
+  top: 55px;
+  right: 260px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12px;
+  color: rgb(141, 141, 141);
+  z-index: 9999;
+}
+ 
+#next-text {
+  position: absolute;
+  top: 55px;
+  right: 160px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12px;
+  color: rgb(141, 141, 141);
+  z-index: 9999;
+}
+
+button:hover {
+    background-color: rgb(130, 129, 129);
+    font-weight: bold;
+    color: lightgrey;
+}
+
+/*---------------------------------------------------------- Description */
+#description_box {
+  position: absolute;
+  top: 480px;
+  right: 20px;
+  padding: 10px;
+  background-color: rgb(42, 42, 42, 0.8);
+  z-index: 9999;
+}
+
+#description {
+  position: relative;
+  max-width: 1000px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  z-index: 9999;
+  text-align: right;
+}
+
+/*---------------------------------------------------------- Description image */
+#customPanel {
+  position: absolute;
+  top: 110px;
+  right: 20px;
+  width: 640px;
+  background: rgb(0, 0, 0);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  padding: 0;
+  z-index: 100;
+  display: none;
+
+  border-radius: 5px; /* ← adds soft corners to panel box */
+  overflow: hidden;    /* ← clips the image to match border radius */
+}
+
+#customPanel img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  opacity: 0;
+  transition: opacity 1.0s ease;
+}
+
+/*---------------------------------------------------------- Camera Zoom slider */
+#customSliderContainer {
+  position: fixed;
+  top: 55px;
+  right: 980px;
+  width: 200px;
+  height: 30px;
+  z-index: 10000;
+}
+
+#sliderTrack {
+  position: relative;
+  width: 100%;
+  height: 6px;
+  background: #ccc;
+  border-radius: 3px;
+}
+
+#sliderThumb {
+  position: absolute;
+  top: -7px;
+  width: 20px;
+  height: 20px;
+  background: #2196f3;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+#sliderLabel {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12px;
+  color: rgb(141, 141, 141);
+  white-space: nowrap;
+  text-align: center;
+  padding-bottom: 8px;
+}
+
+
+/*---------------------------------------------------------- Slider Control */
+.slider {
+  display: block;
+  width: 30px;
+  height: 17px;
+  background-color: #616060;
+  transition: 0.2s;
+  border-radius: 8px;
+  position: relative; /* <- changed from absolute */
+  cursor: pointer;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 13px;
+  width: 13px;
+  left: 2px;
+  bottom: 2px;
+  background-color: white;
+  transition: 0.2s;
+  border-radius: 50%;
+}
+
+/*---------------------------------------------------------- Switch Buttons */
+
+.switch-label {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12px;
+  color: rgb(141, 141, 141);
+  white-space: nowrap;
+  text-align: center;
+}
+
+.switch {
+  display: flex;
+  flex-direction: row;
+  align-items: right;
+  width: fit-content;
+  height: auto;
+  gap: 10px;
+  position: relative;
+}
+
+/* Hide default checkbox */
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+/*---------------------------------------------------------- Independant swtich attributes */
+#buildingToggleContainer {
+  position: fixed;
+  top: 75px;
+  right: 360px;
+  z-index: 1000; /* Make sure it appears above other elements */
+}
+
+#buildingOverlay:checked + .slider {
+  background-color: #2196F3;
+}
+
+#buildingOverlay:checked + .slider:before {
+  transform: translateX(13px);
+}
+
+#distanceRingsToggleContainer {
+  position: fixed;
+  top: 75px;
+  right: 550px;
+  z-index: 1000; /* Make sure it appears above other elements */
+}
+
+#distanceRings:checked + .slider {
+  background-color: #e9731e;
+}
+
+#distanceRings:checked + .slider:before {
+  transform: translateX(13px);
+}
+
+#viewingCorridorsToggleContainer {
+  position: fixed;
+  top: 75px;
+  right: 750px;
+  z-index: 1000; /* Make sure it appears above other elements */
+}
+
+#viewingCorridors:checked + .slider {
+  background-color: #6a57c1;
+}
+
+#viewingCorridors:checked + .slider:before {
+  transform: translateX(13px);
+}
+
+/*---------------------------------------------------------- Compass */
+#compass {
+  position: absolute;
+  top: 120px;
+  left: 30px;
+  width: 70px;
+  height: 70px;
+  z-index: 100;
+}
+#compassNeedle {
+  width: 100%;
+  height: 100%;
+  transform-origin: 50% 50%;
+  transition: transform 0.1s linear;
+  filter: drop-shadow(2px 2px 4px rgba(0, 0, 0, 0.5));
+}
